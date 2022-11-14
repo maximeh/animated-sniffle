@@ -1,1 +1,3 @@
-# animated-sniffle
+# m14n.dev
+
+Simple homepage
