@@ -1,0 +1,11 @@
+{
+  "name": "m14n.dev",
+  "short_name": "m14n",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [],
+  "splash_pages": null
+}
