@@ -16,8 +16,8 @@
             a:hover .apple { fill: #000; }
         }
         body { font-size: 1.125em; font-family: "IBM Plex Sans", monospace; }
-        main { width: 40em; margin: 0 auto; }
-        main img { width: 85%; display: block; margin-left: auto; margin-right: auto; }
+        main { display: grid; place-content: center;   position: fixed; inset: 0; width: fit-content; height: fit-content; margin: auto;}
+        main img {   grid-row: 1; grid-column: 1;}
         span.hand {
             font-size: 1.1em;
             line-height: 2;
@@ -36,7 +36,6 @@
             60% { transform:rotate(0) }
             100% { transform:rotate(0) }
         }
-
         .bio {
             text-transform: uppercase;
             letter-spacing: 0.2em;
@@ -44,10 +43,6 @@
             line-height: 2;
             font-weight: 300;
             text-rendering: optimizeLegibility;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
         }
         svg.apple { display:inline-block; fill: #ff5a00;}
 
@@ -55,8 +50,7 @@
         a:hover { text-decoration: underline; }
 
         @media all and (max-width: 40em) {
-          main { width: 100%; }
-          .bio { font-size: 0.875em; }
+          main img { width: 100%; }
         }
 
     </style>
